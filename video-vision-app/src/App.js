@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import { useState, useEffect } from 'react';
+
+
+
+
 
 function App() {
+
+  const url = "https://api.themoviedb.org/3"
+
+  fetch(
+    `${url}/search/movie/`
+  )
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+
+    <Header/>
     </div>
   );
 }

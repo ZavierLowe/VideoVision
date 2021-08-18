@@ -1,0 +1,12 @@
+.header{
+      background-color: #353535;
+      height: 10vh;
+      display: flex;
+      font-family: 'roboto';
+           
+}
+.header-title{
+      font-weight: 600;
+      font-size: 1.5rem;
+      color:#F8F9FA;
+}
