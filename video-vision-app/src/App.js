@@ -8,11 +8,8 @@ import { useState, useEffect } from 'react';
 
 function App() {
 
-  const url = "https://api.themoviedb.org/3"
-
-  fetch(
-    `${url}/search/movie/`
-  )
+  const [movies,setMovies] = useState ("");
+  
 
   return (
     <div>

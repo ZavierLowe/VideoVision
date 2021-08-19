@@ -5,7 +5,7 @@ import Search from './Search'
 function Header(props) {
       return (
             <header className='header'>
-                  <h1 className='header-title'> VideoVision</h1>
+                  <h1 className='header-title'>VideoVision</h1>
                   <Search/>
                   
             </header>
