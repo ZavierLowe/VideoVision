@@ -19,7 +19,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen></iframe>
              <div className='featured-mediabg'>
                    <div className='featured-container'>
-                         <div classname='featured-mv'>Featured Movie</div>
+                         <div className='featured-mv'>Featured Movie</div>
                          <div className='featured-title'>Dragon Ball Super: Broly</div>
                          <div className='featured-buttons'>
                                <div className='playbtn'>

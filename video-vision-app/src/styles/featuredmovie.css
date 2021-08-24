@@ -77,3 +77,18 @@ margin-bottom: 1rem;
       border-radius: 10px;
       cursor: pointer;
 }
+
+.featured-info:hover{
+background: linear-gradient(180deg, rgba(53,53,53,.2) 60%, rgba(9,9,120,.8) 100%);
+cursor: pointer;
+}
+
+
+
+
+.featured-mv{
+      font-size: 1rem;
+      font-weight: 500;
+      color:white;
+      margin-left: 5px;
+}
