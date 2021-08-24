@@ -1,0 +1,46 @@
+.main-media{
+      display: flex;
+      flex-direction: column;
+      color: white;
+      padding: 20px 0 20px 50px;
+      margin: 10px;
+      
+      
+      
+      
+    
+}
+.media-row{
+     
+      font-weight: 700;
+      margin-top: 10px;
+      
+
+}
+
+.media-row ::-webkit-scrollbar{
+      display: none;
+
+}
+
+.media-image{
+      
+      margin-right: 5px;
+      
+     
+      
+}
+
+.image{
+     
+      width: 300px;
+      object-fit: cover;
+      object-position: center;
+      border: none;
+      border-radius: 15px;
+      
+}
+
+.date{
+      font-weight: 300;
+}

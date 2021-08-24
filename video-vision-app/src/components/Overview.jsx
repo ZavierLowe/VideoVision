@@ -1,12 +1,11 @@
 import React from 'react';
 
-
-function Home(props) {
+function Overview(props) {
       return (
             <div>
-                  
+              <button>Overvie</button> 
             </div>
       );
 }
 
-export default Home;
+export default Overview;

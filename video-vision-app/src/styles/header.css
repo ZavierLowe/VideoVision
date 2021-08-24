@@ -1,12 +1,21 @@
 .header{
-      background-color: #353535;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: rgb(53,53,53);
+      background: linear-gradient(90deg, rgba(53,53,53,1) 8%, rgba(9,9,121,1) 83%);
       height: 10vh;
       display: flex;
       font-family: 'roboto';
-           
+      padding: 1rem;
+      z-index: 2;
+      margin-left: 50px;
 }
 .header-title{
       font-weight: 600;
       font-size: 1.5rem;
       color:#F8F9FA;
+}
+Link{
+      text-decoration: none;
 }

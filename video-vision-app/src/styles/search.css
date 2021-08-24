@@ -1,6 +1,22 @@
 .search-input{
-      padding: 10px;
-      border-radius:10px;
       display: flex;
-      flex-flow: end;
+      justify-content: center;
+      padding: 10px;
+      background:transparent;
+      border: none;
+      border-bottom: 2px solid;
+      color: white;
+      width: 500px;
+      
+      
+      
+      
+      
+}
+
+.list{
+      list-style: none;
+      background-color: blue;
+      z-index: 14;
+      border-radius: 20px;
 }

@@ -1,0 +1,8 @@
+.popular{
+      display: flex;
+}
+
+.popular-name{
+      color:white;
+      margin-left: 50px;
+}
