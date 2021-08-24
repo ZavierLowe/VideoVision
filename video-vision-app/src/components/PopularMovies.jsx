@@ -14,7 +14,7 @@ function PopularMovies(props) {
             .then((res) => res.json())
             .then((data) =>{
                   
-                        console.log(data);
+                        
       
                         setPopular(data.results);
                         
