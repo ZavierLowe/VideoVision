@@ -10,3 +10,4 @@ Reactjs
 # How to use
 1. Go to
 2. Search for a movie in the searchbar for more informaiton
+3. 
